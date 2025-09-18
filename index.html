@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Tarjetas de Cumpleaños</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crea tu tarjeta de cumpleaños</h1>
+    <form action="generar-tarjeta.php" method="POST">
+        <label for="nombre">Nombre del cumpleañero:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+        <button type="submit">Generar Tarjeta</button>
+    </form>
+</body>
+</html>
